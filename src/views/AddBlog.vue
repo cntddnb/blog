@@ -39,8 +39,8 @@
     </div>
     <div :class="[no ? 'shadow' : '']">
       <div class="blog no" v-if="no">
-        <span class="title" style="color: #f56c6c">博客发布失败</span>
-        <span>{{ errCont }}</span>
+        <span class="title" style="color: #111">博客发布失败</span>
+        <span style="padding: 10px 12px; color: #F00000;">{{ errCont }}</span>
         <div>
           <button class="btn" @click.prevent="back">确定</button>
         </div>
@@ -81,6 +81,9 @@ export default {
             this.no = true
             this.errCont = error
           })
+      } else {
+        this.no = true
+        this.errCont = '标题和内容为必填项'
       }
     },
     back() {
@@ -145,6 +148,11 @@ button:hover {
   margin: 15px 0 0 20px;
   padding: 8px 10px;
   font-size: 16px;
+  transform: translate(0, 30px);
+  background: #909399;
+}
+.btn:hover {
+  background: #696a6b;
 }
 .info {
   display: inline-block;
