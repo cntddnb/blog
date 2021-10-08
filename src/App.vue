@@ -1,32 +1,33 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/" exact>浏览</router-link>
+      <router-link to="/add" exact>写博客</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-<style>
+<style scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 #nav {
+  background: #409eff;
   padding: 30px;
 }
 
 #nav a {
+  /* transition: all 0.1s linear; */
   font-weight: bold;
-  color: #2c3e50;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 4px;
+  color: #ffffff;
 }
-
 #nav a.router-link-exact-active {
-  color: #42b983;
+  background: rgba(255, 255, 255, 0.8);
+  color: #409eff;
 }
 </style>

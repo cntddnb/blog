@@ -1,0 +1,37 @@
+.blog {
+  position: relative;
+  top: 0;
+  transition: all 0.1s linear;
+  background: #fff;
+  box-shadow: 0 0px 10px rgb(219, 219, 219);
+  box-sizing: border-box;
+  max-width: 800px;
+  text-align: left;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+.title {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+.content {
+  padding: 0 20px;
+  word-wrap: break-word;
+}
+a {
+  color: rgb(37, 37, 37);
+  text-decoration: none;
+}
+input,
+textarea,
+select {
+  outline: none;
+  border: 1px solid #555;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #409eff;
+}

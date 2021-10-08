@@ -1,0 +1,44 @@
+{
+  "id": "2851693",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24723062",
+      "name": "jump-left-down",
+      "font_class": "jump-left-down-icon",
+      "unicode": "e93d",
+      "unicode_decimal": 59709
+    },
+    {
+      "icon_id": "24723113",
+      "name": "reload",
+      "font_class": "reload-2-icon",
+      "unicode": "e93c",
+      "unicode_decimal": 59708
+    },
+    {
+      "icon_id": "24723026",
+      "name": "close",
+      "font_class": "close-icon",
+      "unicode": "e92e",
+      "unicode_decimal": 59694
+    },
+    {
+      "icon_id": "24723008",
+      "name": "arrow-up-2",
+      "font_class": "arrow-up-2-icon",
+      "unicode": "e926",
+      "unicode_decimal": 59686
+    },
+    {
+      "icon_id": "24723064",
+      "name": "loupe",
+      "font_class": "loupe-icon",
+      "unicode": "e93b",
+      "unicode_decimal": 59707
+    }
+  ]
+}
