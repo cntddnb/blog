@@ -1,4 +1,4 @@
-# 博客
+# blog
 
 ## Project setup
 ```
@@ -21,4 +21,4 @@ npm run lint
 ```
 
 ### 在线预览
-See [在线预览地址](https://cntddnb.github.io/).
+See[在线预览地址](https://cntddnb.github.io/).
